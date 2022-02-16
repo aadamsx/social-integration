@@ -39,7 +39,7 @@ export default function Home() {
 
       <InstagramEmbed
         url="https://www.instagram.com/direct_tvs/"
-        // clientAccessToken="1384337532012420|b399621c2c5eb2f574e58761bdbac184"
+        // clientAccessToken="{app-id}|{client-token}"
         maxWidth={320}
         hideCaption={false}
         containerTagName="div"
@@ -52,6 +52,4 @@ export default function Home() {
       />
     </div>
   );
-
-  // {app-id}|{client-token}: {1384337532012420}|{b399621c2c5eb2f574e58761bdbac184}
 }
